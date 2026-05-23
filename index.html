@@ -4,375 +4,263 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abdul Wasay | Portfolio</title>
-    <meta
-      name="description"
-      content="Professional portfolio for Abdul Wasay, IT manager, Python developer, automation engineer, and cybersecurity specialist."
-    />
+    <meta name="description" content="Professional portfolio for Abdul Wasay, IT manager, Python developer, automation engineer, and cybersecurity specialist." />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="is-loading">
+    <div class="skeleton-loader" aria-hidden="true">
+      <div class="skeleton-panel">
+        <div class="skeleton-header">
+          <div class="skeleton-line skeleton-line-sm"></div>
+          <div class="skeleton-nav">
+            <span class="skeleton-chip"></span>
+            <span class="skeleton-chip"></span>
+            <span class="skeleton-chip"></span>
+          </div>
+        </div>
+        <div class="skeleton-hero">
+          <div class="skeleton-block skeleton-block-xl"></div>
+          <div class="skeleton-block skeleton-block-lg"></div>
+          <div class="skeleton-actions">
+            <span class="skeleton-button"></span>
+            <span class="skeleton-button"></span>
+          </div>
+          <div class="skeleton-stack">
+            <div class="skeleton-row"></div>
+            <div class="skeleton-row"></div>
+            <div class="skeleton-row"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="page-shell">
+      
       <header class="topbar">
         <a class="brand" href="#home">
-          <span class="brand-copy">
-            <strong>Abdul Wasay</strong>
-            <small>IT Manager · Python Developer · Cybersecurity Specialist</small>
-          </span>
+          <strong>Abdul Wasay</strong>
+          <span class="brand-divider">/</span>
+          <span class="brand-title">Portfolio</span>
         </a>
-        <div class="header-actions">
-          <nav class="nav" aria-label="Primary">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-          </nav>
-          <button class="theme-toggle" type="button" aria-pressed="false" id="theme-toggle" aria-label="Toggle theme">
-            <span class="theme-toggle-track" aria-hidden="true">
-              <span class="theme-toggle-thumb"></span>
-            </span>
-          </button>
-        </div>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </header>
 
       <main>
         <section class="hero" id="home">
-          <div class="hero-copy">
-            <p class="eyebrow">Automation · Systems · Security · Analytics</p>
-            <h1>Delivering reliable software and operations for modern teams.</h1>
+          <div class="hero-main">
+            <p class="eyebrow">Based in Islamabad, Pakistan</p>
+            <h1>Building secure, automated operations for modern engineering teams.</h1>
             <p class="lead">
-              Technology professional with practical experience in full-stack development,
-              automation engineering, cybersecurity, IT operations, and data workflows.
+              IT Manager & Project Manager at Securely Innovations Pvt Ltd. Specializing in Python ecosystem automation, full-stack tools, and digital forensics.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#projects">View Projects</a>
-              <a class="button button-secondary" href="#contact">Contact</a>
+              <a class="button button-primary" href="#projects">Explore Work</a>
+              <a class="button button-secondary" href="#contact">Get in Touch</a>
             </div>
-            <dl class="hero-highlights" aria-label="Highlights">
-              <div>
-                <dt>Current roles</dt>
-                <dd>IT Manager + Project Manager</dd>
-              </div>
-              <div>
-                <dt>Experience</dt>
-                <dd>5+ years of hands-on delivery</dd>
-              </div>
-              <div>
-                <dt>Focus</dt>
-                <dd>Automation and secure systems</dd>
-              </div>
-            </dl>
           </div>
-          <div class="hero-visual">
-            <div class="panel panel-accent profile-panel">
-              <p class="panel-label">Profile</p>
-              <p class="profile-name">Abdul Wasay</p>
-              <p class="profile-role">Islamabad, Pakistan</p>
-              <p>
-                Full-stack development, cybersecurity, automation engineering, and IT
-                operations for production environments.
-              </p>
+          <div class="hero-meta">
+            <div class="meta-row">
+              <span class="meta-label">Current Role</span>
+              <span class="meta-value">IT Manager & PM</span>
             </div>
-            <div class="panel-grid">
-              <div class="panel">
-                <span>Company</span>
-                <strong>Securely Innovations Pvt Ltd</strong>
-              </div>
-              <div class="panel">
-                <span>University</span>
-                <strong>Air University</strong>
-              </div>
+            <div class="meta-row">
+              <span class="meta-label">Core Engine</span>
+              <span class="meta-value">Python & Linux Systems</span>
             </div>
-            <div class="panel">
-              <span>Delivery areas</span>
-              <strong>ERP systems, automation, data pipelines, security, and support</strong>
+            <div class="meta-row">
+              <span class="meta-label">Education</span>
+              <span class="meta-value">Air University (Cyber Security)</span>
             </div>
           </div>
         </section>
 
         <section class="section" id="about">
-          <div class="section-heading">
-            <p class="eyebrow">About</p>
-            <h2>Professional profile</h2>
-          </div>
-          <div class="content-card prose">
-            <p>
-              Technology professional with 5+ years of practical experience in full-stack
-              development, cybersecurity, automation engineering, IT operations, and AI-
-              integrated systems.
-            </p>
-            <p>
-              Currently serving as IT Manager and Project Manager at Securely Innovations
-              Pvt Ltd while maintaining freelance work in software delivery, automation,
-              and data systems.
-            </p>
+          <div class="section-layout">
+            <div class="section-header">
+              <h2>Profile</h2>
+            </div>
+            <div class="section-content prose">
+              <p>
+                Technology professional with 5+ years of practical experience navigating full-stack development, cybersecurity infrastructure, and automated data architectures. 
+              </p>
+              <p>
+                Bridging the gap between high-level project coordination and raw technical execution. Active both in enterprise operations at Securely Innovations and across specialized global client infrastructure via freelance environments.
+              </p>
+            </div>
           </div>
         </section>
 
         <section class="section" id="skills">
-          <div class="section-heading">
-            <p class="eyebrow">Core Skills</p>
-            <h2>Tools and specializations</h2>
-          </div>
-          <div class="skill-grid">
-            <article class="content-card">
-              <h3>Programming</h3>
-              <ul class="tag-list">
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>C++</li>
-                <li>C#</li>
-                <li>R</li>
-                <li>PineScript</li>
-              </ul>
-            </article>
-            <article class="content-card">
-              <h3>Web & Backend</h3>
-              <ul class="tag-list">
-                <li>Flask</li>
-                <li>REST APIs</li>
-                <li>WebSockets</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>WordPress</li>
-                <li>WooCommerce</li>
-              </ul>
-            </article>
-            <article class="content-card">
-              <h3>Automation</h3>
-              <ul class="tag-list">
-                <li>Selenium</li>
-                <li>Requests</li>
-                <li>Browser Automation</li>
-                <li>Web Scraping</li>
-                <li>Data Mining</li>
-              </ul>
-            </article>
-            <article class="content-card">
-              <h3>AI & Integrations</h3>
-              <ul class="tag-list">
-                <li>LLM API Integration</li>
-                <li>Local LLM Infrastructure</li>
-                <li>MetaTrader Wrappers</li>
-                <li>Automation Bots</li>
-              </ul>
-            </article>
-            <article class="content-card">
-              <h3>Infrastructure & Security</h3>
-              <ul class="tag-list">
-                <li>Linux</li>
-                <li>VPS Management</li>
-                <li>SSH</li>
-                <li>SSL/TLS</li>
-                <li>Network Security</li>
-                <li>Digital Forensics</li>
-              </ul>
-            </article>
+          <div class="section-layout">
+            <div class="section-header">
+              <h2>Capabilities</h2>
+            </div>
+            <div class="section-content">
+              <div class="skills-list">
+                <div class="skills-row">
+                  <h3>Languages</h3>
+                  <p>Python, JavaScript, C++, C#, R, PineScript</p>
+                </div>
+                <div class="skills-row">
+                  <h3>Backend & Web</h3>
+                  <p>Flask, REST APIs, WebSockets, HTML/CSS, WordPress/WooCommerce</p>
+                </div>
+                <div class="skills-row">
+                  <h3>Automation</h3>
+                  <p>Selenium, Custom Web Scrapers, Browser Automation, Data Mining Pipelines</p>
+                </div>
+                <div class="skills-row">
+                  <h3>Infra & Security</h3>
+                  <p>Linux, VPS Management, Network Security, Digital Forensics, SSL Architecture</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
         <section class="section" id="experience">
-          <div class="section-heading">
-            <p class="eyebrow">Experience</p>
-            <h2>Work history</h2>
-          </div>
-          <div class="timeline">
-            <article class="timeline-item content-card">
-              <p class="timeline-meta">Jan 2024 – Present · Islamabad, Pakistan</p>
-              <h3>IT Manager</h3>
-              <p class="timeline-company">Securely Innovations Pvt Ltd</p>
-              <ul>
-                <li>Administer Linux and VPS infrastructure</li>
-                <li>Manage SSH pipelines and networking</li>
-                <li>Configure SSL deployment and cPanel environments</li>
-                <li>Architect internal ERP systems</li>
-                <li>Maintain operational reporting systems</li>
-              </ul>
-            </article>
-            <article class="timeline-item content-card">
-              <p class="timeline-meta">2023 – Present · Islamabad, Pakistan</p>
-              <h3>Project Manager</h3>
-              <p class="timeline-company">Securely Innovations Pvt Ltd</p>
-              <ul>
-                <li>Lead cross-functional teams of 5–8 members</li>
-                <li>Manage software production lifecycle</li>
-                <li>Coordinate QA, architecture, deployment, and client communication</li>
-                <li>Oversee long-term project execution</li>
-              </ul>
-            </article>
-            <article class="timeline-item content-card">
-              <p class="timeline-meta">2020 – Present · Remote</p>
-              <h3>Freelance Developer & IT Consultant</h3>
-              <p class="timeline-company">Upwork & Direct Clients</p>
-              <ul>
-                <li>Full-stack applications and REST APIs</li>
-                <li>Trading automation and backtesting tools</li>
-                <li>Web scraping pipelines and data platforms</li>
-                <li>Dockerized systems, bots, dashboards, and reporting tools</li>
-              </ul>
-            </article>
+          <div class="section-layout">
+            <div class="section-header">
+              <h2>Experience</h2>
+            </div>
+            <div class="section-content timeline">
+              <article class="timeline-item">
+                <div class="time-meta">Jan 2024 — Present</div>
+                <div class="time-body">
+                  <h3>IT Manager</h3>
+                  <p class="company">Securely Innovations Pvt Ltd</p>
+                  <ul class="bullet-list">
+                    <li>Administer underlying Linux environments and production VPS clusters.</li>
+                    <li>Design SSH pipelines, manage internal networks, and orchestrate SSL environments.</li>
+                    <li>Architected core components of internal enterprise resource planning platforms.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="time-meta">2023 — Present</div>
+                <div class="time-body">
+                  <h3>Project Manager</h3>
+                  <p class="company">Securely Innovations Pvt Ltd</p>
+                  <ul class="bullet-list">
+                    <li>Steer agile engineering groups of 5–8 cross-functional engineers.</li>
+                    <li>Synchronize delivery roadmaps, client updates, quality assurance, and deployments.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="time-meta">2020 — Present</div>
+                <div class="time-body">
+                  <h3>Freelance Engineer & IT Consultant</h3>
+                  <p class="company">Upwork / Direct Contracts</p>
+                  <ul class="bullet-list">
+                    <li>Ship custom trading algorithms, analytics integrations, and API suites.</li>
+                    <li>Deploy dockerized microservices, custom bots, data extraction platforms, and web scrapers.</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
           </div>
         </section>
 
         <section class="section" id="projects">
-          <div class="section-heading">
-            <p class="eyebrow">Projects</p>
-            <h2>Selected work</h2>
-          </div>
-          <div class="project-grid">
-            <article class="content-card project-card">
-              <p class="project-kicker">Final Year R&D Project</p>
-              <h3>WISPR</h3>
-              <p>
-                Wi-Fi sensing research project for presence recognition and direction
-                tracking using ESP32 hardware and CSI analysis.
-              </p>
-            </article>
-            <article class="content-card project-card">
-              <p class="project-kicker">Internal Platform</p>
-              <h3>ERP Suite</h3>
-              <p>
-                Unified HR, billing, reporting, and operational workflows into a single
-                internal system for Securely Innovations.
-              </p>
-            </article>
-            <article class="content-card project-card">
-              <p class="project-kicker">Analytics System</p>
-              <h3>Trading Strategy Platform</h3>
-              <p>
-                Built analytics and backtesting workflows for trading strategies using
-                Python, PineScript, and MetaTrader integrations.
-              </p>
-            </article>
-            <article class="content-card project-card">
-              <p class="project-kicker">Document Automation</p>
-              <h3>PDF Mining Suite</h3>
-              <p>
-                Automated parsing and structured extraction from large PDF collections for
-                digital library workflows.
-              </p>
-            </article>
-            <article class="content-card project-card">
-              <p class="project-kicker">Data Extraction</p>
-              <h3>Web Scrapers & Data Miners</h3>
-              <p>
-                Production scraping systems for e-commerce, financial, and structured web
-                datasets.
-              </p>
-            </article>
-            <article class="content-card project-card">
-              <p class="project-kicker">Placeholder Slot</p>
-              <h3>Future case study</h3>
-              <p>
-                Keep one card free for your next client project, product launch, or case
-                study.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section split-section">
-          <div>
-            <div class="section-heading">
-              <p class="eyebrow">Education</p>
-              <h2>Academic background</h2>
+          <div class="section-layout">
+            <div class="section-header">
+              <h2>Selected Work</h2>
             </div>
-            <div class="content-card">
-              <h3>Air University</h3>
-              <p class="timeline-meta">2022 – 2026 · Cyber Security</p>
-            </div>
-          </div>
-          <div>
-            <div class="section-heading">
-              <p class="eyebrow">Services</p>
-              <h2>Client offerings</h2>
-            </div>
-            <div class="content-card">
-              <ul class="tag-list">
-                <li>Application Development</li>
-                <li>Web Development</li>
-                <li>Technical Support</li>
-                <li>Custom Software Development</li>
-                <li>Software Testing</li>
-                <li>Computer Networking</li>
-                <li>Network Support</li>
-              </ul>
+            <div class="section-content project-grid">
+              <a href="#" class="project-link">
+                <span class="project-num">01</span>
+                <div class="project-info">
+                  <h3>WISPR R&D</h3>
+                  <p>Wi-Fi sensing system tracking presence and tracking vector changes using custom ESP32 units & CSI metrics.</p>
+                </div>
+              </a>
+              <a href="#" class="project-link">
+                <span class="project-num">02</span>
+                <div class="project-info">
+                  <h3>Internal Enterprise Engine</h3>
+                  <p>Unified business operations suite linking billing, analytics pipelines, and dynamic HR dashboards.</p>
+                </div>
+              </a>
+              <a href="#" class="project-link">
+                <span class="project-num">03</span>
+                <div class="project-info">
+                  <h3>Quantitative Trading Suite</h3>
+                  <p>High-performance backend evaluating strategic signals via Python wrappers and MetaTrader bindings.</p>
+                </div>
+              </a>
+              <a href="#" class="project-link">
+                <span class="project-num">04</span>
+                <div class="project-info">
+                  <h3>PDF Mining Pipeline</h3>
+                  <p>Automated ingestion stack parsing, sorting, and structuralizing unorganized documents into database nodes.</p>
+                </div>
+              </a>
             </div>
           </div>
         </section>
 
-        <section class="section" id="certifications">
-          <div class="section-heading">
-            <p class="eyebrow">Certifications</p>
-            <h2>Credentials archive</h2>
-          </div>
-          <div class="cert-grid">
-            <article class="content-card">
-              <h3>Cybersecurity & Networking</h3>
-              <ul>
-                <li>Network Security — ISC2 — Aug 2023</li>
-                <li>Networks and Communications Security — ISC2 — Sep 2023</li>
-                <li>Cloud and Wireless Security — ISC2 — Sep 2023</li>
-                <li>Ethical Hacking Essentials (EHE) — EC-Council — Feb 2024</li>
-                <li>Network Security — Cisco — Aug 2023</li>
-                <li>IT Security: Defense Against the Digital Dark Arts — Google — Sep 2023</li>
-              </ul>
-            </article>
-            <article class="content-card">
-              <h3>System Administration & IT</h3>
-              <ul>
-                <li>System Administration and IT Infrastructure Services — Google — Sep 2023</li>
-                <li>Operating Systems and You: Becoming a Power User — Google — Sep 2023</li>
-                <li>Technical Support Fundamentals — Google — Aug 2023</li>
-                <li>Google IT Support Specialization — Google — Sep 2023</li>
-                <li>Introduction to Computers and Operating Systems and Security — Microsoft — Aug 2023</li>
-              </ul>
-            </article>
-            <article class="content-card">
-              <h3>AI, Data & Analytics</h3>
-              <ul>
-                <li>Introduction to AI in the Data Center — NVIDIA — Aug 2023</li>
-                <li>Introduction to Data Analytics — IBM — Aug 2023</li>
-              </ul>
-            </article>
-            <article class="content-card">
-              <h3>Digital Forensics</h3>
-              <ul>
-                <li>Digital Forensics Concepts — Infosec — Sep 2023</li>
-                <li>Windows OS Forensics — Infosec — Aug 2023</li>
-              </ul>
-            </article>
+        <section class="section">
+          <div class="section-layout">
+            <div class="section-header">
+              <h2>Certifications</h2>
+            </div>
+            <div class="section-content cert-list">
+              <div class="cert-item"><span>ISC2 Network Security</span> <span class="cert-dot"></span> <span class="cert-date">2023</span></div>
+              <div class="cert-item"><span>EC-Council Ethical Hacking Essentials</span> <span class="cert-dot"></span> <span class="cert-date">2024</span></div>
+              <div class="cert-item"><span>Google SysAdmin & IT Infrastructure</span> <span class="cert-dot"></span> <span class="cert-date">2023</span></div>
+              <div class="cert-item"><span>NVIDIA AI in the Data Center</span> <span class="cert-dot"></span> <span class="cert-date">2023</span></div>
+              <div class="cert-item"><span>Infosec Windows OS Forensics</span> <span class="cert-dot"></span> <span class="cert-date">2023</span></div>
+            </div>
           </div>
         </section>
 
         <section class="section" id="contact">
-          <div class="section-heading">
-            <p class="eyebrow">Contact</p>
-            <h2>Reach me out</h2>
-          </div>
-          <div class="contact-card content-card">
-            <div class="contact-links">
-              <a href="mailto:abdulwasay4712@gmail.com">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                abdulwasay4712@gmail.com
-              </a>
-              <a href="https://github.com/xeklev" target="_blank" rel="noreferrer">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                GitHub
-              </a>
-              <a href="https://www.linkedin.com/in/xeklev" target="_blank" rel="noreferrer">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                LinkedIn
-              </a>
+          <div class="section-layout">
+            <div class="section-header">
+              <h2>Connect</h2>
+            </div>
+            <div class="section-content contact-zone">
+              <p>Interested in robust automation architectures or operations consultation? Drop a message directly.</p>
+              <div class="contact-methods">
+                <a href="mailto:abdulwasay4712@gmail.com" class="text-link">
+                  <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.8" />
+                    <path d="m4.5 7.2 7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <span>abdulwasay4712@gmail.com</span>
+                </a>
+                <a href="https://github.com/xeklev" target="_blank" rel="noreferrer" class="text-link">
+                  <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2.5a9.5 9.5 0 0 0-3 18.52c.48.09.66-.21.66-.47v-1.6c-2.7.59-3.27-1.15-3.27-1.15-.44-1.13-1.08-1.43-1.08-1.43-.88-.6.07-.59.07-.59.98.07 1.5 1 1.5 1 .87 1.49 2.28 1.06 2.83.81.09-.64.34-1.06.62-1.31-2.16-.25-4.43-1.08-4.43-4.79 0-1.06.38-1.92 1-2.6-.1-.26-.44-1.3.1-2.71 0 0 .82-.26 2.7 1a9.3 9.3 0 0 1 4.92 0c1.88-1.26 2.7-1 2.7-1 .54 1.41.2 2.45.1 2.71.62.68 1 1.54 1 2.6 0 3.72-2.27 4.53-4.44 4.78.35.3.67.88.67 1.78v2.64c0 .26.18.56.67.46A9.5 9.5 0 0 0 12 2.5Z" fill="currentColor" />
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/xeklev" target="_blank" rel="noreferrer" class="text-link">
+                  <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6.5 9.5H3.8v10.2h2.7V9.5Zm-1.35-4a1.55 1.55 0 1 0 0 3.1 1.55 1.55 0 0 0 0-3.1Zm4.2 4h2.6v1.39h.04c.36-.68 1.24-1.39 2.56-1.39 2.74 0 3.25 1.8 3.25 4.14v6.08h-2.7v-5.39c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85v5.49H9.35V9.5Z" fill="currentColor" />
+                  </svg>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
             </div>
           </div>
         </section>
       </main>
 
-
+      <footer class="footer">
+        <p>&copy; <span id="year"></span> Abdul Wasay. All systems operational.</p>
+      </footer>
     </div>
 
     <script src="script.js"></script>
